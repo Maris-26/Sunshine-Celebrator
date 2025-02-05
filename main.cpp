@@ -27,7 +27,7 @@ RealtimeDatabase Database;
 AsyncResult result;
 LegacyToken dbSecret(DATABASE_SECRET);
 
-int uploadInterval = 4000; // 4 seconds each upload (0.25 Hz)
+int uploadInterval = 1000; // For my power-saving strategy (1Hz)
 unsigned long sendDataPrevMillis = 0;
 int count = 0;
 // bool signupOK = false;
